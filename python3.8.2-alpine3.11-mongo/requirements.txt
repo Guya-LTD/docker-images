@@ -1,0 +1,19 @@
+wheel
+pathlib
+python-dotenv
+flask
+Flask-Script
+flask-restplus
+werkzeug~=0.16.1
+flask-mongoengine
+https://github.com/Guya-LTD/python-logstash/archive/master.zip
+
+# Devs
+
+faker
+pytest
+pytest-dotenv
+python-semantic-release
+commitizen
+semantic_release
+pre-commit
