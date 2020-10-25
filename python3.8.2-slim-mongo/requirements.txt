@@ -14,7 +14,3 @@ https://github.com/Guya-LTD/python-logstash/archive/master.zip
 faker
 pytest
 pytest-dotenv
-python-semantic-release
-commitizen
-semantic_release
-pre-commit
