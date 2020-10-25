@@ -5,3 +5,4 @@ help:
 .PHONY: all
 all: ## Build all images
 	docker build -t guyaltd/python:mongo -f python3.8.2-slim-mongo/Dockerfile python3.8.2-slim-mongo/
+	docker build -t guyaltd/python:slim -f python3.8.2-slim/Dockerfile python3.8.2-slim/
