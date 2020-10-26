@@ -14,5 +14,9 @@ slim:
 pyjwt:
 	docker build -t guyaltd/python:pyjwt -f python3.8.2-pyjwt/Dockerfile python3.8.2-pyjwt/
 
+.PHONY: mongo-connector
+mongo-connector:
+	docker build -t guyaltd/python:mongo-connector -f python3.8.2-mongo-connector/Dockerfile python3.8.2/
+
 .PHONY: all
-all: mongo slim pyjwt ## Build all images
+all: mongo slim pyjwt mongo-connector ## Build all images
