@@ -1,0 +1,19 @@
+wheel
+pathlib
+python-dotenv
+flask
+Flask-Script
+flask-restplus
+werkzeug~=0.16.1
+https://github.com/Guya-LTD/python-logstash/archive/master.zip
+
+# ml
+scikit-learn
+pandas
+joblib
+
+# Devs
+
+faker
+pytest
+pytest-dotenv
