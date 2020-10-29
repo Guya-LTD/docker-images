@@ -22,5 +22,13 @@ ml: ## Machine learning python packages
 schedule: ## Schedule
 	docker build -t guyaltd/python:schedule -f python3.8.2-schedule/Dockerfile python3.8.2-schedule/
 
+.PHONY: grpc-boost
+grpc-boost:	# Grpc Boost
+	docker build -t guyaltd/grpc:boost -f grpc-boost/Dockerfile grpc-boost/
+
+.PHONY: postgres
+postgres: ## Postgres
+	docker build -t guyaltd/python:postgres -f python3.8.2-postgres/Dockerfile python3.8.2-postgres/
+
 .PHONY: all
-all: mongo slim pyjwt ml schedule ## Build all images
+all: mongo slim pyjwt ml schedule grpc-boost postgres ## Build all images
