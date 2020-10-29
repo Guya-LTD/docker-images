@@ -1,0 +1,16 @@
+wheel
+pathlib
+python-dotenv
+flask
+Flask-Script
+flask-restplus
+werkzeug~=0.16.1
+flask-mongoengine
+Flask-APScheduler
+https://github.com/Guya-LTD/python-logstash/archive/master.zip
+
+# Devs
+
+faker
+pytest
+pytest-dotenv

@@ -18,5 +18,9 @@ pyjwt: ## Pyjwt
 ml: ## Machine learning python packages
 	docker build -t guyaltd/python:ml -f python3.8.2-ml/Dockerfile python3.8.2-ml/
 
+.PHONY: schedule
+schedule: ## Schedule
+	docker build -t guyaltd:schedule -f python3.8.2-schedule/Dockerfile python3.8.2-schedule/
+
 .PHONY: all
-all: mongo slim pyjwt ml ## Build all images
+all: mongo slim pyjwt ml schedule ## Build all images
