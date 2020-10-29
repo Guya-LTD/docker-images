@@ -20,7 +20,7 @@ ml: ## Machine learning python packages
 
 .PHONY: schedule
 schedule: ## Schedule
-	docker build -t guyaltd:schedule -f python3.8.2-schedule/Dockerfile python3.8.2-schedule/
+	docker build -t guyaltd/python:schedule -f python3.8.2-schedule/Dockerfile python3.8.2-schedule/
 
 .PHONY: all
 all: mongo slim pyjwt ml schedule ## Build all images
