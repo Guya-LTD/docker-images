@@ -1,0 +1,19 @@
+wheel
+pathlib
+python-dotenv
+flask
+Flask-Script
+flask-restplus
+werkzeug~=0.16.1
+requests
+psycopg2-binary
+Flask-SQLAlchemy
+Flask-Migrate
+flask-marshmallow
+https://github.com/Guya-LTD/python-logstash/archive/master.zip
+
+# Devs
+
+faker
+pytest
+pytest-dotenv
