@@ -7,6 +7,7 @@ flask-restplus
 werkzeug~=0.16.1
 flask-mongoengine
 Flask-APScheduler
+requests
 https://github.com/Guya-LTD/python-logstash/archive/master.zip
 
 # Devs
